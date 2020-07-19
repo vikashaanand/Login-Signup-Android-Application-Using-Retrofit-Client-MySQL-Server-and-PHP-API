@@ -19,4 +19,12 @@ public interface Api {
             @Field("PASSWORD") String password
     );
 
+    @FormUrlEncoded
+    @POST("login.php")
+    Call<StudentPOJO> getStudent(
+            @Field("ROLL") int roll,
+            @Field("PASSWORD") String password
+    );
+
+
 }
