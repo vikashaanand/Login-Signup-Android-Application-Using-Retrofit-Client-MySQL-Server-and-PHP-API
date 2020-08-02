@@ -26,5 +26,18 @@ public interface Api {
             @Field("PASSWORD") String password
     );
 
+    @FormUrlEncoded
+    @POST("getEmail.php")
+    Call<StudentPOJO> getEmail(
+            @Field("ROLL") int roll
+    );
+
+    @FormUrlEncoded
+    @POST("updatePassword.php")
+    Call<ResponsePOJO> updatePassword(
+            @Field("ROLL") int roll,
+            @Field("PASSWORD") String password
+    );
+
 
 }

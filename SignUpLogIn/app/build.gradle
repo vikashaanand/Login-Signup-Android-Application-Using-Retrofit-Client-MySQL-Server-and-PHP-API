@@ -33,4 +33,10 @@ dependencies {
     //Retrofit Dependency
     implementation 'com.squareup.retrofit2:retrofit:2.5.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+
+    //Adding MailerApi Dependency
+    implementation files('libs/activation.jar')
+    implementation files('libs/additional.jar')
+    implementation files('libs/mail.jar')
+
 }

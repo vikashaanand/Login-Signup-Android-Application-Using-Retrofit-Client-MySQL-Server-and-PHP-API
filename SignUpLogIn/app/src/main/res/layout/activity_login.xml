@@ -46,5 +46,14 @@
             android:textColor="@android:color/background_dark"
             android:textSize="18dp" />
 
+        <Button
+            android:id="@+id/btnForgotPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="right|center_vertical"
+            android:text="Forgot Password"
+            android:textColor="@android:color/holo_red_dark" />
+
     </LinearLayout>
 </RelativeLayout>
